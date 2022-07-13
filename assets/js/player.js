@@ -6,3 +6,5 @@ class player {
       this.score = 0;
     }
   }
+
+  

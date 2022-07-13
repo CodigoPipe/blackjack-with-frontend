@@ -1,0 +1,14 @@
+
+html,body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    background-color: orange;
+    padding: 50px;
+    font-size: 80px;
+    color: black;
+}
