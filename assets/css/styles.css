@@ -15,11 +15,6 @@ html,body{
 
 .player-container{
     text-align: center;
-    margin: 110px;background-color: bisque;
-}
-
-.player-containersub{
-    background-color: blueviolet;
 }
 
 #buttons-father{
@@ -35,8 +30,8 @@ html,body{
     margin: 5px;
     padding: 30px;
     font-size: 30px;
-    /* background-color: orange;
-    color: black; */
+    background-color: orange;
+    color: black;
 }
 
 #card-container{

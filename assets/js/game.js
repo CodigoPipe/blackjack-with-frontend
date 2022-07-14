@@ -1,5 +1,5 @@
-  import {createDeck, drawCard, cardValue} from "./card.js"
-  import {drawCardBtn, playerPointsHtml, divCardContainer} from "./dom.js"
+  import {createDeck, drawCard, } from "./card.js"
+  import {drawCardBtn, playerPointsHtml, divCardContainer, newGameBtn} from "./dom.js"
 
 
   let playerPoints = 0;
@@ -9,7 +9,7 @@ createDeck();
 drawCardBtn.addEventListener("click", () => {
 
     const card = drawCard();
-    playerPoints += cardValue(card);
+    playerPoints += card.value;
     playerPointsHtml.innerText = playerPoints;
 
 
@@ -28,6 +28,18 @@ drawCardBtn.addEventListener("click", () => {
         drawCardBtn.disabled = true;
     }
 
+})
+
+newGameBtn.addEventListener("click" , ()=>{
+
+    console.clear();
+    playerPoints = 0;
+    deck = [];
+    createDeck();
+
+    drawCardBtn.disabled = false;
+    playerPointsHtml.innerText = 0;
+    divCardContainer.innerText = " ";
 })
 
 

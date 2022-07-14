@@ -90,9 +90,9 @@ export function drawCard(){
 }
 
 //returns numeric value of the card
-export function cardValue(cardDrawed){
-    // if(cardDrawed.name[0] == "A"){
-    //   return cardDrawed.value2
-    // }
-    return cardDrawed.value
-}
+// export function cardValue(cardDrawed){
+//     // if(cardDrawed.name[0] == "A"){
+//     //   return cardDrawed.value2
+//     // }
+//     return cardDrawed.value
+// }
