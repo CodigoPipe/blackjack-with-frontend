@@ -13,6 +13,15 @@ html,body{
     color: black;
 }
 
+.player-container{
+    text-align: center;
+    margin: 110px;background-color: bisque;
+}
+
+.player-containersub{
+    background-color: blueviolet;
+}
+
 #buttons-father{
 
     text-align: center;
@@ -43,10 +52,6 @@ html,body{
 
 }
 
-.player-container{
-    text-align: center;
-    margin: 110px;
-}
 
 #player-name{
     font-size: 75px;

@@ -77,7 +77,6 @@ export function createDeck(){
 
     deck.sort(()=> Math.random() - 0.5);
     
-    console.log(deck)
     return deck;            
 
     }
@@ -86,17 +85,14 @@ export function createDeck(){
 export function drawCard(){
 
   const cardDrawed = deck.pop();
-
-  console.log(deck);
-  console.log(cardDrawed);
   return cardDrawed;
 
 }
 
 //returns numeric value of the card
 export function cardValue(cardDrawed){
-    if(cardDrawed.name.charAt[0] == "A"){
-      return cardDrawed.value2
-    }
+    // if(cardDrawed.name[0] == "A"){
+    //   return cardDrawed.value2
+    // }
     return cardDrawed.value
 }
