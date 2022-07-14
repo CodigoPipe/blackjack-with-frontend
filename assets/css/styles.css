@@ -12,3 +12,42 @@ html,body{
     font-size: 80px;
     color: black;
 }
+
+#buttons-father{
+
+    text-align: center;
+    background-color: aqua;
+    margin-top: 200px;
+    
+}
+
+
+.button{
+    margin: 5px;
+    padding: 30px;
+    font-size: 30px;
+    /* background-color: orange;
+    color: black; */
+}
+
+#card-container{
+    height: 180px;
+}
+
+
+.card{
+    position: relative;
+    width: 180px;
+    left: 10px;
+    margin-left: -70px;
+
+}
+
+.player-container{
+    text-align: center;
+    margin: 110px;
+}
+
+#player-name{
+    font-size: 75px;
+}
