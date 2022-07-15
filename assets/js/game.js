@@ -10,6 +10,12 @@ drawCardBtn.addEventListener("click", () => {
 
     const card = drawCard();
     playerPoints += card.value;
+    
+    if(playerPoints >= 10 && card.value ==11){
+
+        playerPoints-10
+    }
+
     playerPointsHtml.innerText = playerPoints;
 
 
