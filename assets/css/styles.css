@@ -39,6 +39,10 @@ html,body{
     border-radius: 30px;
 }
 
+.button:hover{
+    background: orangered;
+}
+
 #card-container{
     height: 180px;
 }
