@@ -18,13 +18,18 @@ drawCardBtn.addEventListener("click", () => {
     imgCard.classList.add("card");
     divCardContainer.append(imgCard);
 
+    const messages = document.querySelector("#messages");
+
+
+
     if(playerPoints > 21){
 
-        console.warn("lost")
+        messages.innerText = "You Lost, Try Again..."
         drawCardBtn.disabled = true;
 
     }else if(playerPoints >= 18 && playerPoints <=21){
-        console.warn("you win");
+
+        messages.innerText = "Victory, Congratulations!!!"
         drawCardBtn.disabled = true;
     }
 
@@ -34,7 +39,7 @@ newGameBtn.addEventListener("click" , ()=>{
 
     console.clear();
     playerPoints = 0;
-    deck = [];
+    messages.innerText = "Draw a card";
     createDeck();
 
     drawCardBtn.disabled = false;
